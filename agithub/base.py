@@ -15,7 +15,7 @@ else:
     class ConnectionError(OSError):
         pass
 
-VERSION = get_version(root='..', relative_to=__file__)
+VERSION = "2.2.1"
 
 # These headers are implicitly included in each request; however, each
 # can be explicitly overridden by the client code. (Used in Client

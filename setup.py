@@ -1,10 +1,6 @@
 from setuptools import setup, find_packages
 from os import path
 
-here = path.abspath(path.dirname(__file__))
-with open(path.join(here, 'README.md')) as f:
-    long_description = f.read()
-
 test_requirements = ['pytest']
 
 extras = {
@@ -13,7 +9,7 @@ extras = {
 
 setup(name='agithub',
       description="A lightweight, transparent syntax for REST clients",
-      long_description=long_description,
+      long_description="",
       long_description_content_type='text/markdown',
       classifiers=[
           'Development Status :: 5 - Production/Stable',
